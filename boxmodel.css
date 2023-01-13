@@ -1,3 +1,10 @@
+body
+{
+    background-color:chocolate;
+}
+
+
+
 .container {
     background-color: cadetblue;
     border: 2px solid #e3dab3;
@@ -7,11 +14,24 @@
     padding-left: 12px;
     padding-right: 21px; */
 
-    /* padding/margin = top right botttom left */
+    /* margin-top:30px;
+    margin-bottom: 30px;
+    margin-left: 12px;
+    margin-right: 21px; */
+
+
+
+    /* padding = top right botttom left */
     /* padding : 20px 30px 40px 50px; */
+
+    /* margin = top right botttom left */
+    /* margin : 20px 30px 40px 50px; */
+
 
     /* padding: y(top/bottom) x(left/right); */
     padding: 30px 10px;
- 
-    margin: 25px;
+
+    /* margin : y(top/bottom) x(left/right); */
+    margin: 30px 10px;
+    border-radius: 45px;
 }

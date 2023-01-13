@@ -1,0 +1,17 @@
+.container {
+    background-color: cadetblue;
+    border: 2px solid #e3dab3;
+    /* we can set padding/margin for top,botttom,left,right */
+    /* padding-top:30px;
+    padding-bottom: 30px;
+    padding-left: 12px;
+    padding-right: 21px; */
+
+    /* padding/margin = top right botttom left */
+    /* padding : 20px 30px 40px 50px; */
+
+    /* padding: y(top/bottom) x(left/right); */
+    padding: 30px 10px;
+ 
+    margin: 25px;
+}

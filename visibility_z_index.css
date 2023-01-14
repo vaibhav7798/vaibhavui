@@ -1,0 +1,36 @@
+.box {
+    border: 2px solid black;
+    width: 170px;
+    height: 150px;
+}
+
+#box1 {
+    background-color: aqua;
+   position: relative;
+   top: 50;
+  z-index: 35; ;  
+}
+
+#box2 {
+    
+    /* display: none;
+    visibility:hidden;  /*use to hiddden element ex:div box2 is here hidden  
+                         but area is also reserved of hidden element so in that case 
+                         removed/hide reserved area we used display:none properties
+                       */
+    /* z-index: will only work on absolute,relative,fixed,stricky will not wrok on static ,static is default; */
+  position: relative;
+  top: 15px;    
+  z-index: -160;  /* NOTE:z-index: jiski value badi hogi wo aage aa jayega jiski value kam hogi wo piche chala jayega
+                       z-index:35 hai to aage aa gaya and z-index:-160 hai to piche chala gaya   ;*/
+  background-color: red 
+  
+}
+
+#box3 {
+    background-color: chartreuse
+}
+
+#box4 {
+    background-color: tomato
+}

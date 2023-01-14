@@ -1,0 +1,39 @@
+.container {
+    border: 2px solid red;
+    background-color: coral;
+    height: 3500px;
+}
+
+
+.box {
+    border: 2px solid red;
+    width: 100px;
+    height: 120px;
+    margin: 4px;
+    display: inline-block;
+}
+
+#box3 {
+    /* relative:relative to it is normal position and give gap at it is normal position
+      position: relative;
+  
+       top: 30px;
+    left: 20px;
+      */
+
+    /* absolute:position of it is first parent 
+    position: absolute; 
+    
+    top: 30px;
+    left: 20px;
+   */
+
+    /* fixed: fixed position 
+    position: fixed;
+    right: 25px;
+   */
+
+   position: sticky;
+   top: 25px;
+
+}

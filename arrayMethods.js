@@ -12,7 +12,6 @@ var lastIndex=arrayItem.length-1;
 delete arrayItem[lastIndex];
 console.log(arrayItem);
 */
-
 var popItem=arrayItem.pop();//pop method is used to delete last item follow [LIFO] 
 console.log(popItem);
 console.log(arrayItem);

@@ -1,0 +1,18 @@
+<script src="regEx.js"></script>
+
+<form >
+Password:<input type="text" placeholder="Enter A Valid Value" pattern="^[A-Z]{1}[A-Za-z0-9]{4}[0-9]{3}$" maxlength="8">
+<button>Submit</button> <br>
+ Pan card: <input type="text" placeholder="Valid value" pattern="^[A-Z]{5}[0-9]{4}[A-Za-z]{1}$"n maxlength="10">
+<br>
+pan our fmt: <input type="text" pattern="^[A-Z]{4}[0-9]{1}[#]{1}[A-Za-z]{4}$" maxlength="10">
+<br>
+<!--NOTE: here maxlength/minlength can not work on type="number"-->
+Number: <input type="number"  placeholder="mb number" pattern=^[0-9]{10}*$ maxlength="10">
+<br>
+Email Id: <input type="email" placeholder="valid value">
+<br>
+Not A Number: <input type="text" pattern="[^0-9]{3}$" maxlength="3" >
+
+
+</form>

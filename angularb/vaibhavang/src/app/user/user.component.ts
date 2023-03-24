@@ -13,4 +13,28 @@ export class UserComponent {
   {
     this.myTempRef=vaibhav;
   }
+
+ myEvent()
+ {
+  console.log("hey mouse(in) over...");
+  
+ }
+
+ myBlur()
+ {
+  console.log("Blur....");
+  
+ }
+
+ myEvChekBox()
+ {
+  console.log("you have check In..");
 }
+
+myEvChekBox1(vaibhav:any)
+{
+  console.log("Event:"+vaibhav.target.value);
+}
+
+}
+
